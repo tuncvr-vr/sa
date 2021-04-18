@@ -254,7 +254,7 @@ client.on("message", async msg => {
  
     });
 
-client.login(process.env.token)
+client.login(ayarlar.token)
 
 client.on('guildDelete', guild => {
 
